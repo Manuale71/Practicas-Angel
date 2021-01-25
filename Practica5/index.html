@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Practica 5</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="estilo.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="container">
+			<br>
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#inicio">inicio</a></li>
+				<li><a href="#elementos">elementos</a></li>
+				<li><a href="#nombreimg">nombre imagenes</a></li>
+				<li><a href="#final">final</a></li>
+			</ul>
+			<br><br>
+			<a name="inicio"></a>
+			<div class="jumbotron">
+				<h1>El Cine</h1>
+				<p>El cine es un arte y una técnica. Es el arte de narrar historias mediante la proyección de imágenes, de allí que también se lo conozca con el nombre de séptimo arte.</p>
+				<p>Para la realización del cine es necesaria la concurrencia de muchas otras capacidades a nivel técnico, creativo y financiero, como el montaje, la fotografía, la dirección, el guionismo, la operación de cámaras, el sonido, la producción, etc. Para conocer mas...</p>
+				<form role="form">
+					<div class="form-group">
+						<a href="https://es.wikipedia.org/wiki/Cine" target="_blank"><button type="button" class="btn btn-primary btn-lg">Click aqui</button></button></a>
+					</div>
+				</form>
+			</div>
+			<br>
+			<a name="elementos"></a>
+			<h2>Elementos del cine</h2>
+			<br>
+			<img src="camara.jpg" class="img-rounded" width="400" height="300">
+			<hr>
+			<img src="clipboard.jpg" class="img-circle" width="400" height="300">
+			<hr>
+			<img src="guion.jpg" class="img-thumbnail" width="400" height="300">
+			<hr>
+			<img src="microfono.jpg" class="img-responsive" width="400" height="300">
+			<hr>
+			<a name="nombreimg"></a>
+			<div class="panel panel-default">
+				<div class="panel-body">
+				Las imagenes presentadas muestran: Camara, Clipboard, Guion y Microfono.
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="btn btn-default dropdown-toggle" type="button"
+					id="menu1" data-toggle="dropdown">elementos
+				<span class="caret"></span></button>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="#elementos">camara</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="#elementos">clipboard</a>
+					</li>
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="#elementos">guion</a>
+					</li>
+					<li role="presentation" class="divider">
+					</li>
+					<li role="presentation">
+						<a role="menuitem" tabindex="-1" href="#elementos">microfono</a>
+					</li>
+				</ul>
+				<a name="#final"></a>
+			</div>
+			<!--parte 5-->
+			<ul class="pagination">
+				<li><a href="#inicio"><</a></li>
+				<li><a href="#elementos">1</a></li>
+				<li><a href="#nombreimg">2</a></li>
+				<li><a href="#final">3</a></li>
+			</ul>
+			<!--parte 6-->
+			<div class="progress">
+				<div class="progress-bar" role="progressbar" style="width:100%">
+				100%
+				</div>
+			</div>
+			<!--parte 7-->
+			<nav class="navbar navbar-default">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">Practica 5</a>
+					</div>
+					<div>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="#inicio">inicio</a></li>
+							<li><a href="#elementos">elementos</a></li>
+							<li><a href="#nombreimg">nombre imagenes</a></li>
+							<li><a href="#final">final</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<script src="js/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
